@@ -1,0 +1,14 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+get_events:
+    path: '/openagenda/id/{id}/events/'
+    controller: 'App\Controller\OpenAgendaController::searchEvents'
+    methods: [GET, POST]
+    
+get_agendas:
+    path: '/openagenda/agendas'
+    controller: 'App\Controller\OpenAgendaController::getAgendas'
+    methods: ['GET']
+

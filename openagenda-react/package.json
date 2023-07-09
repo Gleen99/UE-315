@@ -1,0 +1,39 @@
+{
+  "name": "openagenda-react",
+  "version": "1.0.0",
+  "description": "Plugin WordPress/React for OpenAgenda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "author": "Gleen Camille",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/wordpress__blocks": "^12.5.0",
+    "@types/wordpress__element": "^2.14.1",
+    "@wordpress/scripts": "26.3.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@mui-treasury/components": "^1.10.1",
+    "@mui-treasury/styles": "^1.13.1",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.5",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "@types/react": "^17.0.0",
+    "http-proxy-middleware": "^2.0.6",
+    "react-markdown": "^8.0.7",
+    "react-router-dom": "^6.11.2",
+    "react-shadow": "^20.0.0",
+    "remark-gfm": "^3.0.1",
+    "swr": "^2.1.5",
+    "typescript": "^5.0.4"
+  }
+}
